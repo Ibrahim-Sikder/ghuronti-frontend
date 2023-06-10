@@ -1,0 +1,288 @@
+.home-main {
+    width: 100%;
+    height: 100%;
+    background: url('../../images/bannerImageBg.png');
+    background-size: 100% 436px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    margin-top: -25px;
+}
+
+.titleHero {
+    font-size: 36px;
+    font-family: PoppinsRegular;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.heroBoxMain {
+    max-width: 1100px;
+
+    background: linear-gradient(180deg, rgba(230, 248, 255, 0.33) 0%, rgba(229, 248, 255, 0.33) 100%);
+    box-shadow: 0px 2px 12px rgba(25, 171, 227, 0.3);
+    border-radius: 42px;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+}
+
+.optionsOfHero {
+    width: 100%;
+    height: 86px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroboxContent {
+    width: 100%;
+
+    padding: 20px;
+}
+
+.optionsOfHero p {
+    font-size: 18px;
+    font-family: PoppinsRegular;
+    color: #092E3D;
+    margin-left: 10px;
+}
+
+.hajjButton {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.hajjbuttonActive {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(230, 248, 255, 0.3);
+    border: 1px solid #4AB449;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.optionButton {
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hajjPackage {
+    margin: 0 auto;
+    width: 376px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4AB449;
+    box-shadow: 0px 2px 4px rgba(25, 171, 227, 0.3);
+    border-radius: 5px;
+    display: flex;
+}
+
+.hajjPackageButton {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hajjButtonSubActive {
+    font-family: PoppinsRegular;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #092E3D;
+    border-radius: 2px;
+}
+
+.hajjPackagesButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bookButton {
+    width: 236px;
+    height: 53px;
+    background: #19ABE3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    font-family: PoppinsRegular;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+}
+.mainContent{
+    max-width: 1100px;
+    margin: 80px auto;
+
+}
+
+.hajjMain h1{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+font-size: 36px;
+color: #092E3D;
+text-align: center;
+}
+.hajjMainPara{
+    font-weight: 500;
+font-size: 16px;
+font-family: PoppinsRegular;
+line-height: 24px;  
+color: #738187;
+text-align: center;
+}
+.hajjPackages{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.packageBox{
+   width: 30%;
+   padding: 12px;
+padding-bottom: 25px;
+height: 601px;
+background: #FFFFFF;
+box-shadow: 2px 4px 16px rgba(74, 180, 73, 0.2);
+border-radius: 5px;
+
+position: relative;
+}
+.packageBox:nth-child(2){
+    background: #E5F8FF;
+}
+.hajjPackageCOverImage{
+    width: 100%;
+}
+.daysButton:nth-child(2){
+    background: white;
+}
+.packageTitle{
+    font-family: PoppinsRegular;
+    font-size: 20px;
+line-height: 30px;
+color: #092E3D;
+font-weight: 500;
+}
+.facilityMain{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.facilityMain p{
+    font-family: PoppinsRegular;
+    margin-left: 10px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.daysButton{
+    width: 100px;
+height: 40px;
+position: absolute;
+right: 20px;
+top: 300px;
+border: none;
+background: #E6F8FF;
+border-radius: 5px;
+font-family: PoppinsRegular;
+font-size: 16px;
+font-weight: 500;
+color: #092E3D;
+}
+.price{
+    font-family: PoppinsRegular;
+    font-weight: 400;
+font-size: 16px;
+color: #092E3D; 
+ 
+}
+.priceTile{
+    font-family: PoppinsRegular;
+    font-weight: 400;
+font-size: 16px;
+color: #4AB449;  
+margin-right: 20px;
+}
+.detailsButton{
+    width: 160px;
+height: 46px;
+background: #4AB449;
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+color: #E6F8FF;
+margin: 0 auto;
+border: none;
+margin-left: 25%;
+}
+.preRegReq{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.req{
+    width: 30%;
+    padding:5px 12px;
+    background: #FFFFFF;
+    border: 1px solid #E6F8FF;
+    box-shadow: 0px 4px 4px #E6F8FF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.req p{
+    font-family: PoppinsRegular;
+    font-weight: 400;
+font-size: 16px;
+color: #092E3D;
+margin-left: 10px;   
+}
+.preReg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preReg button{
+    width: 236px;
+height: 53px;
+background: #19ABE3;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+color: white;
+font-size: 18px;
+color: #FFFFFF;
+border: none;
+cursor:pointer;
+}
