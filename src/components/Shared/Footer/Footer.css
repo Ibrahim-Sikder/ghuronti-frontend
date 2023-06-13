@@ -49,3 +49,37 @@ margin-bottom: 20px;
    color: white;
    font-family: PoppinsRegular;     
 }
+
+
+@media (max-width: 768px) {
+   .footerMain {
+      width: 100%;
+      height: 100%;
+      background: #26ADE2;
+  }
+  .footerContent {
+   margin: 0 auto;
+   max-width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 20px;
+}
+.contentFooter {
+   width: 50%;
+   height: 100%;
+   padding-right: 10px;
+}
+ }
+ @media (max-width: 600px) {
+   .adVideomAIN {
+       max-width: 100%;
+       margin: 40px auto;
+       height: 119px;
+   }
+   .contentFooter {
+      width: 100%;
+      height: 100%;
+      padding-right: 20px;
+  }
+ }

@@ -251,9 +251,9 @@ const Footer = () => {
                 </div>
                 <div className="contentFooter">
                     <h1>Help</h1>
-                    <Link href="#" className="otehrPageLInk">FAQ</Link>
-                    <Link href="#" className="otehrPageLInk">Privacy Policy</Link>
-                    <Link href="#" className="otehrPageLInk">Terms & Condition </Link>
+                    <Link to="/faq" className="otehrPageLInk">FAQ</Link>
+                    <Link to="/policy" className="otehrPageLInk">Privacy Policy</Link>
+                    <Link to="/terms" className="otehrPageLInk">Terms & Condition </Link>
                 </div>
             </div>
 

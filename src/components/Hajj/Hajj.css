@@ -49,6 +49,7 @@
     font-family: PoppinsRegular;
     color: #092E3D;
     margin-left: 10px;
+    margin-top: 5px;
 }
 
 .hajjButton {
@@ -137,7 +138,7 @@
 }
 .mainContent{
     max-width: 1100px;
-    margin: 80px auto;
+    margin: 143px auto;
 
 }
 
@@ -194,6 +195,7 @@ font-weight: 500;
     height: 30px;
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 .facilityMain p{
     font-family: PoppinsRegular;
@@ -286,3 +288,327 @@ color: #FFFFFF;
 border: none;
 cursor:pointer;
 }
+.optionButtonActive{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(230, 248, 255, 0.3);
+    border: 1px solid #4AB449;
+    border-radius: 20px 20px 20px 20px;
+}
+.visaSearch{
+    width: 733px;
+height: 65px;
+margin: 20px auto;
+display: flex;
+align-items: center;
+overflow: hidden;
+border: 1px solid #4AB449;
+background: #FFFFFF;
+border-radius: 10px;
+padding-left: 20px;
+}
+.visaSearch input{
+    width: 520px;
+    height: 90%;
+    border: none;
+}
+.visaSearch button{
+    width: 179px;
+    height: 100%;
+    background: #4AB449;
+    color: white;
+    font-family: PoppinsRegular;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1366px) {
+    /* Add your CSS styles for small laptops here */
+  }
+  
+  /* Styles for tablets */
+  @media (max-width: 1024px) {
+    /* Add your CSS styles for tablets here */
+  }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 768px) {
+    .titleHero {
+        font-size: 29px;
+        font-family: PoppinsRegular;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .heroBoxMain {
+        max-width: 95%;
+        background: linear-gradient(180deg, rgba(230, 248, 255, 0.33) 0%, rgba(229, 248, 255, 0.33) 100%);
+        box-shadow: 0px 2px 12px rgba(25, 171, 227, 0.3);
+        border-radius: 42px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .optionsOfHero {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .hajjbuttonActive {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: rgba(230, 248, 255, 0.3);
+        border: 1px solid #4AB449;
+        border-radius: 20px 20px 20px 0px;
+    }
+    .optionButton {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .hajjButton {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .optionButtonActive {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: rgba(230, 248, 255, 0.3);
+        border: 1px solid #4AB449;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .mainContent {
+        max-width: 90%;
+        margin: 80px auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .titleHero {
+        font-size: 23px;
+        font-family: PoppinsRegular;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .heroBoxMain {
+        max-width: 95%;
+        background: linear-gradient(180deg, rgba(230, 248, 255, 0.33) 0%, rgba(229, 248, 255, 0.33) 100%);
+        box-shadow: 0px 2px 12px rgba(25, 171, 227, 0.3);
+        border-radius: 42px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .mainContent {
+        max-width: 90%;
+        margin: 80px auto;
+    }
+    .hajjPackages {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  
+    .packageBox {
+        width: 49%;
+        padding: 12px;
+        padding-bottom: 25px;
+        height: 601px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 16px rgba(74, 180, 73, 0.2);
+        border-radius: 5px;
+        position: relative;
+    }
+    .packageBox:last-child{
+        margin-top: 20px;
+    }
+    .hajjMain h1 {
+        font-family: PoppinsRegular;
+        font-weight: 600;
+        font-size: 27px;
+        color: #092E3D;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .preRegReq {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .req {
+        width: 49%;
+        padding: 5px 12px;
+        background: #FFFFFF;
+        border: 1px solid #E6F8FF;
+        box-shadow: 0px 4px 4px #E6F8FF;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin: 3px;
+    }
+  }
+  @media (max-width: 600px){
+    .packageBox {
+        width: 89%;
+        padding: 12px;
+        padding-bottom: 25px;
+        height: 601px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 16px rgba(74, 180, 73, 0.2);
+        border-radius: 5px;
+        position: relative;
+        margin-top: 10px;
+    }
+    .hajjMainPara br{
+        display: none;
+    }
+    .hajjMain h1 {
+        font-family: PoppinsRegular;
+        font-weight: 600;
+        font-size: 25px;
+        color: #092E3D;
+        text-align: center;
+        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .preRegReq {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .req {
+        width: 100%;
+        padding: 5px 12px;
+        background: #FFFFFF;
+        border: 1px solid #E6F8FF;
+        box-shadow: 0px 4px 4px #E6F8FF;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .req p {
+        font-family: PoppinsRegular;
+        font-weight: 400;
+        font-size: 16px;
+        color: #092E3D;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .home-main {
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bannerImageBg.png');
+        background-size: 100% 596px;
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding-bottom: 86px;
+        margin-top: -25px;
+    }
+    .preReg button {
+        width: 236px;
+        height: 53px;
+        background: #19ABE3;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        margin-top: 324px;
+    }
+    .heroBoxMain {
+        max-width: 95%;
+        background: linear-gradient(180deg, rgba(230, 248, 255, 0.33) 0%, rgba(229, 248, 255, 0.33) 100%);
+        box-shadow: 0px 2px 12px rgba(25, 171, 227, 0.3);
+        border-radius: 5px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .hajjbuttonActive {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: rgba(230, 248, 255, 0.3);
+        border: 1px solid #4AB449;
+        border-radius: 4px;
+    }
+    .optionsOfHero p {
+        font-size: 17px;
+        font-family: PoppinsRegular;
+        color: #092E3D;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .optionButton {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .titleHero {
+        font-size: 23px;
+        font-family: PoppinsRegular;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+    .hajjButton {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .optionButtonActive {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: rgba(230, 248, 255, 0.3);
+        border: 1px solid #4AB449;
+        border-radius: 4px;
+    }
+  }

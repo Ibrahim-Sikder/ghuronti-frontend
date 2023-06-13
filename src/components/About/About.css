@@ -1,0 +1,281 @@
+.aboutHero{
+    width: 100%;
+    height: 650px;
+    background: url('../../images/aboutHero.png');
+    background-size:cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.aboutMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #092E3D 0%, rgba(9, 46, 61, 0.35) 0.01%, rgba(9, 46, 61, 0.65) 100%);
+}
+.aboutMain h1{
+    text-align: center;
+    font-weight: 600;
+font-size: 52px;
+color: #FFFFFF;
+font-family: PoppinsRegular;
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.owner{
+    max-width: 910px;
+    margin: 50px auto;
+    height: 482px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftBOxOwener{
+    width: 401px;
+height: 414px;
+background: linear-gradient(180deg, rgba(38, 173, 226, 0.282) 0%, rgba(38, 173, 226, 0.3) 100%);
+box-shadow: 0px 4px 4px rgba(74, 180, 73, 0.5);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.rightBoxOwner{
+    width: 412px;
+height: 408px;
+background: rgba(25, 171, 227, 0.3);
+border-radius: 5px;
+margin-top: 100px;
+
+}
+.ownerBasicInfo{
+    width: 80%;
+    border-bottom: 1px solid #092E3D;;
+    margin: 0px auto;
+}
+.rightBoxOwner h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #092E3D;
+    margin-bottom: 0;
+    font-family: PoppinsRegular;
+}
+.rightBoxOwner h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+font-size: 18px;
+font-family: PoppinsRegular;
+color: #092E3D;
+}
+.rightBoxOwner p{
+    margin: 0px 40px;
+    margin-top: 20px;
+    font-family: PoppinsRegular;
+    font-weight: 400;
+font-size: 20px;
+color: #092E3D;
+}
+
+.team {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+.team h1{
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: PoppinsRegular;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+.team p{
+    color: #738187;
+
+    text-align: center;
+    font-family: PoppinsRegular;
+    font-size: 16px;
+}
+.teams{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: -50px;
+}
+.teamContainer{
+    width: 220px;
+height: 288px;
+padding: 10px;
+
+filter: drop-shadow(0px 2px 4px rgba(74, 180, 73, 0.3));
+background: #FFFFFF;
+}
+.teamContainer img{
+    width: 100%;
+}
+.teamContainer h2{
+    font-weight: 400;
+font-size: 20px;
+color: #000000;
+margin-bottom: 0;
+}
+.teamContainer h4{
+    font-weight: 400;
+font-size: 16px;
+color: #000000;
+margin-top: 10px;
+}
+.mission h1{
+    font-family: PoppinsRegular;
+    text-align: left !important;
+    font-weight: 600;
+font-size: 36px;
+color: #092E3D;
+}
+.mission p{
+    font-weight: 500;
+font-size: 16px;
+color: #738187; 
+text-align: left !important;
+}
+
+.missionMain{
+    max-width: 769.47px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mission{
+    width: 350px;
+height: 350px;
+background: url('../../images/stitcky.png');
+background-position: left top;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.missionContent h1{
+  margin: 31px;
+  font-weight: 500;
+font-size: 30px;
+color: #092E3D;
+font-family: PoppinsRegular;
+text-align: center;
+}
+.missionContent p{
+    margin-left: 95px;
+    font-family: PoppinsRegular;
+    font-weight: 400;
+font-size: 16px;
+color: #092E3D;
+text-align: center;
+}
+.missionContent{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+
+@media (max-width: 768px) {
+    .aboutMain h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 38px;
+        color: #FFFFFF;
+        font-family: PoppinsRegular;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .aboutHero{
+        height: 341px;
+    }
+    .owner {
+        max-width: 100%;
+        margin: 50px auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightBoxOwner h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #092E3D;
+        margin-bottom: 0;
+        font-family: PoppinsRegular;
+        margin-top: 39px;
+    }
+    .team {
+        max-width: 100%;
+        margin: 20px auto;
+        padding-top: 50px;
+    }
+  }
+  @media (max-width: 600px) {
+    .team p br{
+        display: none;
+       
+    }
+    .team p {
+        margin: 0px 20px;
+    }
+    .teams {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .teamContainer {
+        width: 296px;
+        height: 332px;
+        padding: 10px;
+        filter: drop-shadow(0px 2px 4px rgba(74, 180, 73, 0.3));
+        background: #FFFFFF;
+        margin-top: 20px;
+    }
+    .missionContent p br{
+        display: none;
+    }
+    .missionContent p {
+        margin-left: 0;
+        font-family: PoppinsRegular;
+        font-weight: 400;
+        font-size: 16px;
+        color: #092E3D;
+        text-align: center;
+    }
+    .missionMain{
+        display: none;
+    }
+    .aboutMain h1 br{
+        display: none;
+    }
+    .aboutMain h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        color: #FFFFFF;
+        font-family: PoppinsRegular;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .hajjButton {
+        width: 57%;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .optionButton {
+        width: 49%;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+  }

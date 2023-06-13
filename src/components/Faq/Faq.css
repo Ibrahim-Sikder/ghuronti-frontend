@@ -1,0 +1,13 @@
+.AccordionQUestionAnswer p {
+  font-weight: 800;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.AccordionQUestionAnswer{
+    margin-bottom: 40px;
+}
+.accorBOdy{
+    background-color: #E9F6E9;;
+}
